@@ -1,16 +1,18 @@
-<h1>Taxi Service</h1>
-This project is the implementation of online service for internal usage of taxi company, whose functions are adding, deleting and editing information about cars at the cabstand and their manufacturers and drivers.
+<h1>:oncoming_taxi:Taxi Service </h1>
 
-<h3>Project Structure</h3>
+<h3>:book:Description</h3>
+This is a pet-project gives us an opportunity to manage taxi company. Project has such functions: adding, deleting and editing information about drivers, cars and cars manufacturers.
 
-* The project has an N-tier structure and consists of the database layer, the DAO layer for interaction with the database, the service layer which contains the business logic, and the presentation layer.
-* The DAO layer is built with the JDBC API.
-* Servlets are used to receive and respond to client requests.
-* Filters control access to the service's functionality.
-* The presentation layer is implemented with JSP pages.
-* This project also includes custom-made annotations and an injector, which utilizes Reflection API.
+<h3>:hammer_and_wrench:Project Structure</h3>
 
-<h3>Technologies used</h3>
+:one: **DAO layer** - responsible for connetction to database, build with JDBC API, based on CRUD.
+
+:two: **Service layer** - includes all businness logic. Authentication and authentication filter invoked, which controls access to service functionality.
+
+:three: **Presentation layer** - for displaying application, based on JSP pages, HTML, CSS, JSTL, servlets - responsible for receiving and responding client requests.
+
+
+<h3>:gear:Technologies used</h3>
 
 * Backend: Java, JDBC, Servlets
 * Frontend: HTML, CSS, JSP and JSTL
@@ -18,11 +20,11 @@ This project is the implementation of online service for internal usage of taxi 
 * Web-server: Apache Tomcat
 * Packaging: Apache Maven
 
-<h3>Configuration</h3>
+<h3>:smiley:Try it by yourself</h3>
 
 1. Clone this project into your local folder and open the project in an IDE.
 
-2. Configure Tomcat Server and set up the MySQL RDBMS on your machine.
+2. Configure Tomcat Server and set up the MySQL RDBMS on your computer.
 
 3. Replicate the database from the project by copying the script from init_db.sql into the MySQL Workbench query editor window.
 
